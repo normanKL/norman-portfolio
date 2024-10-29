@@ -1,7 +1,7 @@
 import './PageNotFound.css'
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
-import errorImage from "../assets/404.jpg"
+import errorImage from "/assets/404.jpg"
 
 function PageNotFound () {
 

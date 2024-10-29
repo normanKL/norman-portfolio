@@ -2,7 +2,7 @@
     {
         "id": 1001,
         "type": "coding",
-        "img": "./src/assets/hugolearn-img.png",
+        "img": "/assets/hugolearn-img.png",
         "title": "Learning Portal",
         "date": "Oct 2024",
         "description": [
@@ -37,7 +37,7 @@
     {
         "id": 1002,
         "type": "coding",
-        "img": "./src/assets/licensingportal-img.png",
+        "img": "/assets/licensingportal-img.png",
         "title": "Licensing Portal",
         "date": "Sep 2024",
         "description": [
@@ -72,7 +72,7 @@
     {
         "id": 1003,
         "type": "coding",
-        "img": "./src/assets/mealgenie-img.png",
+        "img": "/assets/mealgenie-img.png",
         "title": "Recipe Finder",
         "date": "Sep 2024",
         "description": [
@@ -105,7 +105,7 @@
     {
         "id": 1004,
         "type": "coding",
-        "img": "./src/assets/ultimatetictactoe-img.png",
+        "img": "/assets/ultimatetictactoe-img.png",
         "title": "Ultimate Tic-Tac-Toe",
         "date": "Aug 2024",
         "description": [
@@ -134,7 +134,7 @@
     {
         "id": 1005,
         "type": "coding",
-        "img": "./src/assets/tictactoe-img.png",
+        "img": "/assets/tictactoe-img.png",
         "title": "Tic-Tac-Toe",
         "date": "Aug 2024",
         "description": [
@@ -161,7 +161,7 @@
     {
         "id": 1006,
         "type": "coding",
-        "img": "./src/assets/countryfinder-img.png",
+        "img": "/assets/countryfinder-img.png",
         "title": "Country Finder",
         "date": "Aug 2024",
         "description": [

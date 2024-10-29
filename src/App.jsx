@@ -7,7 +7,7 @@ import Project from "./components/Project";
 import ProjectList from "./components/ProjectList";
 import Experience from "./components/Experience";
 import PageNotFound from "./components/PageNotFound";
-import cuteDog from './assets/dog-glasses.jpg'
+import cuteDog from '/assets/dog-glasses.jpg'
 
 
 function App() {

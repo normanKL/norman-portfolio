@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Project.css"
 import "devicon/devicon.min.css";
+import "../project.json"
 
 function Project(props) {
 
