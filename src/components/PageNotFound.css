@@ -1,0 +1,26 @@
+.message {
+    display:flex;
+    margin: 50px;
+}
+
+.message>img {
+    width: 400px;
+    height: auto;
+}
+
+.message-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
+    width: 700px;
+    height: auto;
+}
+
+.message-text>h3 {
+    font-size: 40px;
+}
+
+.message-text>p {
+    margin-left: 30px;
+}

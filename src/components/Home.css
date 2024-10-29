@@ -1,0 +1,408 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.about-norman {
+    background-color: #0A2647;
+    border-radius: 10px;
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    position: fixed;
+    top: 105px;
+    right: 0;
+    margin-right: 50px;
+    z-index: 10;
+    border: 2px solid grey;
+}
+
+.about-norman>img {
+    width: 70%;
+    height: auto;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.contact-links {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: #0A2647;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.flex-container {
+    background-color: #0A2647;
+    width: 70%;
+    margin-left: 30px;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: sticky;
+}
+
+.flex-container>div {
+    background-color: #0A2647;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    flex: 0.987;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 70px;
+}
+
+.topic-details {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.learning-experiences {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: left;
+
+}
+
+.learning-experiences>section {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FD841F;
+    border-radius: 10px;
+}
+
+.learning-experiences>section>h5 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.learning-experiences>section>h4 {
+    margin: 0;
+    font-size: 45px;
+}
+
+.learning-experiences>section>p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.elearning-experiences {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: left;
+
+}
+
+.elearning-experiences>section {
+    width: 330px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #525FE1;
+    border-radius: 10px;
+}
+
+.elearning-experiences>section>h5 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.elearning-experiences>section>h4 {
+    margin: 0;
+    font-size: 45px;
+}
+
+.elearning-experiences>section>p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.programming {
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: #088395;
+}
+
+h4 {
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.my-projects {
+    display: flex;
+}
+
+.career-experiences {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: left;
+
+}
+
+.career-experiences>section {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #EC5858;
+    border-radius: 10px;
+}
+
+.career-experiences>section>h5 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.career-experiences>section>h4 {
+    margin: 0;
+    font-size: 45px;
+}
+
+.career-experiences>section>p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.my-career {
+    display: flex;
+}
+
+.icon {
+    font-size: 25px;
+    padding: 5px 5px;
+}
+
+.hover-icon {
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.hover-icon:hover {
+    color: white;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 1200px)and (orientation: landscape) {
+    .main-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-norman {
+        width: 50%;
+        position: relative;
+        top: 0;
+        margin-right: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid grey;
+    }
+
+    .about-norman img {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .about-norman h2 {
+        font-size: 26px;
+    }
+
+    .about-norman p {
+        font-size: 18px;
+
+    }
+
+    .navbar {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    .flex-container {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .learning-experiences section,
+    .elearning-experiences section,
+    .career-experiences section,
+    .programming {
+        width: 90%;
+        font-size: 90%;
+    }
+
+    .skills-icons {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1200px) and (orientation: portrait) {
+
+    .main-content,
+    .about-norman {
+        display: none;
+    }
+
+    .rotate-message {
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        padding-top: 50px;
+        animation: colorChange 3s infinite;
+    }
+
+    @keyframes colorChange {
+        0% {
+            color: white;
+        }
+
+        50% {
+            color: #F28500;
+        }
+
+        100% {
+            color: #FF8343;
+        }
+
+    }
+
+    .icon {
+        font-size: 25px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .about-norman {
+        width: 23%;
+        margin-right: 80px;
+    }
+
+    .flex-container {
+        width: 70%;
+    }
+
+    .icon {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+}
+
+@media (min-width: 2000px) {
+    .about-norman {
+        width: 24%;
+        margin-right: 130px;
+    }
+
+    .flex-container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 2200px) {
+    .about-norman {
+        width: 24%;
+        margin-right: 130px;
+    }
+
+    .about-norman img {
+        width: 60%;
+    }
+}

@@ -1,0 +1,48 @@
+nav {
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+    background-color: #1E3E62;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+nav a {
+    color: #e9e6e6;
+    text-decoration: none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: #0A2647;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 145%;
+    left: 50%;
+    margin-left: -25px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (min-width: 1800px) {
+    nav {
+        width: 300px;
+    }
+}

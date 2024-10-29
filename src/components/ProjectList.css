@@ -1,0 +1,103 @@
+.button-div {
+    text-align: left;
+    padding: 5px 90px;
+}
+
+.projects-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 70px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px;
+}
+
+@media (max-width: 1149px) and (orientation: landscape) {
+
+    .projects-title {
+        font-size: 65px;
+    }
+
+    .button-div {
+        text-align: left;
+        padding: 5px 10px;
+    }
+
+}
+
+@media (max-width: 1149px) and (orientation: portrait) {
+
+    .button-div {
+        display: none;
+    }
+
+    .projects-title {
+        display: none;
+    }
+
+    .project-list {
+        display: none;
+
+    }
+
+}
+
+@media (max-width: 1005px) and (orientation: landscape) {
+
+    .projects-title {
+        font-size: 55px;
+    }
+
+    .button-div {
+        text-align: left;
+        padding: 5px 10px;
+    }
+
+}
+
+@media (max-width: 855px) and (orientation: landscape) {
+
+    .projects-title {
+        font-size: 48px;
+    }
+
+    .button-div {
+        text-align: left;
+        padding: 5px 10px;
+    }
+
+}
+
+@media (max-width: 710px) and (orientation: landscape) {
+
+    .projects-title {
+        font-size: 35px;
+    }
+
+    .button-div {
+        text-align: left;
+        padding: 5px 10px;
+    }
+
+}
+
+@media (max-width: 500px) and (orientation: landscape) {
+
+    .projects-title {
+        font-size: 18px;
+    }
+
+    .button-div {
+        text-align: left;
+        padding: 5px 10px;
+    }
+
+
+
+}
