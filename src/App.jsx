@@ -47,6 +47,7 @@ function App() {
           <Route path="/projects/:id" element={<Project />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/not-found" element={<PageNotFound />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
     </>
