@@ -76,7 +76,7 @@
         "title": "Recipe Finder",
         "date": "Sep 2024",
         "description": [
-            "🔆 The Recipe Finder is one of my Software Engineering Bootcamp projects.",
+            "🔆 The Recipe Finder is one of my Software Engineering Bootcamp group projects.",
             "🔆 Designed to utilize an external API, the app generates a diverse range of meal recipe data, allowing users to search recipes by name or explore randomized recommendations.",
             "🔆 Users can also save recipes they like to a personal favorites list, which is stored in local storage for convenient access anytime.",
             "🔆 This project was developed as a collaborative project by a team of two in just 48 hours."
