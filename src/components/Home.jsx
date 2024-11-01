@@ -68,8 +68,8 @@ function Home() {
                                     </section>
                                     <section>
                                         <h5>Software Engineering:</h5>
-                                        <h4>+1</h4>
-                                        <p> years of experience</p>
+                                        <h4> &lt; 1</h4>
+                                        <p> years of learning experience</p>
                                     </section>
                                 </div>
                             </div>
