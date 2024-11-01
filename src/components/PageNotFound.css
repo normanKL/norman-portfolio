@@ -1,6 +1,7 @@
 .message {
     display:flex;
     margin: 50px;
+    justify-content: center;
 }
 
 .message>img {
