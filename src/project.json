@@ -186,5 +186,32 @@
         ],
         "live": "https://heroic-genie-af1afe.netlify.app/",
         "ReadMe": ""
+    },
+    {
+        "id": 1007,
+        "type": "coding",
+        "img": "/assets/adoption-center.png",
+        "title": "Animal Shelter Adoption Center",
+        "date": "Jan 2024",
+        "description": [
+            "🔆 The Animal Shelter Adoption Center is my final project for the Frontend Development Bootcamp, marking the culmination of my learning journey in this intensive course.",
+            "🔆 As this bootcamp was my first formal experience with programming, I focused on creating a straightforward, intuitive design. I used a JSON file as the project’s API to simplify data handling, allowing users to seamlessly browse information about the shelter and available pets."
+        ],
+        "note": [
+            "🔆 Users can view the adoption center’s profile to learn about the shelter’s mission, explore its adoption history, and see a donation button (intended only for display without actual functionality)",
+            "🔆 Users can explore profiles of all available pets and click on images for more details."
+        ],
+        "devicon": [
+            "devicon-visualstudio-plain",
+            "devicon-git-plain",
+            "devicon-github-plain",
+            "devicon-html5-plain",
+            "devicon-css3-plain",
+            "devicon-javascript-plain",
+            "devicon-nodejs-plain",
+            "devicon-netlify-plain"
+        ],
+        "live": "https://animal-adoption-centre.netlify.app/",
+        "ReadMe": ""
     }
 ]
