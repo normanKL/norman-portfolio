@@ -29,7 +29,8 @@
             "devicon-postman-plain",
             "devicon-postgresql-plain",
             "devicon-heroku-plain",
-            "devicon-netlify-plain"
+            "devicon-netlify-plain",
+            "devicon-trello-plain"
         ],
         "live": "https://lms-project-4-client.netlify.app/",
         "ReadMe": "https://github.com/normanKL/LMS-Project-4-Client"
@@ -64,7 +65,8 @@
             "devicon-postman-plain",
             "devicon-django-plain",
             "devicon-mongodb-plain",
-            "devicon-netlify-plain"
+            "devicon-netlify-plain",
+            "devicon-trello-plain"
         ],
         "live": "https://licensing-portal-frontend.netlify.app/",
         "ReadMe": "https://github.com/normanKL/project-3-licensing-portal-FE"
@@ -97,7 +99,8 @@
             "devicon-nodejs-plain",
             "devicon-postman-plain",
             "devicon-react-original",
-            "devicon-netlify-plain"
+            "devicon-netlify-plain",
+            "devicon-trello-plain"
         ],
         "live": "https://meal-genie-project-ga.netlify.app/",
         "ReadMe": "https://github.com/normanKL/Meal-Genie-Project-Norman"
