@@ -220,8 +220,8 @@ function Home() {
                             <div className="text">
                                 <h3>Career Journey & Experiences</h3>
                                 <div className="my-career">
-                                    <p className='topic-details'>I have experience in learning and development across various industries, including financial institutions, hospitality, and manufacturing.
-                                        I began my career as a Junior Admin Executive, managing quality management system training and the Human Resources Development Fund. Over time, I advanced from Training Coordinator to Instructor, then to Head of the Learning Team, and now serve as an E-Learning Development Specialist.</p>
+                                    <p className='topic-details'>With extensive experience in Learning and Development across financial services, hospitality, and manufacturing, I advanced from Training Coordinator to Instructor, then to Head of the Learning Team, and now serve as an E-Learning Development Specialist. 
+                                        I create impactful content on key topics like risk management and code of conduct, establish learning governance frameworks, and design engaging, human-centered learning experiences. My expertise spans the entire process—from needs assessment to implementation—blending project management and instructional design to deliver solutions that drive meaningful, lasting impact.</p>
                                     <a href="/experience" target="_blank" rel="noopener noreferrer">
                                         <i className="fa-solid fa-arrow-up-right-from-square hover-icon" style={{ fontSize: '25px', color: '#FBA834' }}></i>
                                     </a>
