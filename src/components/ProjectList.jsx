@@ -20,6 +20,7 @@ function ProjectList() {
             </div>
 
             <h3 className="projects-title">Software Engineering Projects</h3>
+            <p className="project-title-description">Click the images for more details</p>
             <br />
             <div className="project-list">
                 {projectArray.map((project, id) => (
