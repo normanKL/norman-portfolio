@@ -17,7 +17,10 @@ body {
 }
 
 .about-norman {
-    background-color: #0A2647;
+    /* background-color: #0A2647; */
+    /* background-image: url('/assets/2-lines-background.jpg');
+    background-size: cover;
+    background-position: center center; */
     border-radius: 10px;
     width: 25%;
     height: auto;
@@ -186,7 +189,7 @@ h3 {
 .programming {
     margin-left: 40px;
     margin-top: 40px;
-    width: 700px;
+    width: 810px;
     border-radius: 10px;
     background-color: #088395;
 }
@@ -200,11 +203,27 @@ h4 {
 .skills-icons {
     display: flex;
     flex-wrap: wrap;
-    font-size: 30px;
+    font-size: 28px;
     margin-left: 30px;
     margin-right: 30px;
-    padding-bottom: 20px;
-    gap: 20px;
+    padding-bottom: 32px;
+    gap: 25px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+    width: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin:0;
+}
+
+.icon-text {
+    margin: 0;
+    padding-top:10px;
+    font-size: 10px;
 }
 
 .my-projects {
