@@ -33,7 +33,7 @@ function Home() {
                     </div>
 
                     <div className="tooltip">
-                        <a href="mailto:cheahhonyuen@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <a href="mailto:hugo.cheah@yahoo.com" target="_blank" rel="noopener noreferrer">
                             <i className="fa-regular fa-envelope hover-icon" style={{ fontSize: '35px', color: 'white' }}></i>
                         </a>
                         <span className="tooltiptext">Email Me</span>
