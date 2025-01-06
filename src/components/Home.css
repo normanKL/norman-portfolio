@@ -7,47 +7,57 @@ body {
 
 .main-page {
     display: flex;
-    flex-direction: column;
-    height: 100vh;
+    margin-top: 2rem;
+    /* flex-direction: column; */
+    /* height: 100vh;
+    align-items: center; */
 }
 
 .main-content {
     display: flex;
     flex-grow: 1;
+    width: 60%;
+    margin-right: 5vw;
+    /* border: 2px dotted red; */
 }
 
 .about-norman {
-    /* background-color: #0A2647; */
+    /* background-color: #ffffff; */
     /* background-image: url('/assets/2-lines-background.jpg');
     background-size: cover;
     background-position: center center; */
     border-radius: 10px;
     width: 25%;
-    height: auto;
-    box-sizing: border-box;
-    padding: 10px;
-    position: fixed;
-    top: 105px;
-    right: 0;
-    margin-right: 50px;
-    z-index: 10;
-    border: 2px solid grey;
+    height: 100%;
+    /* box-sizing: border-box; */
+    padding: 1vh;
+    /* position: fixed; */
+    position:sticky;
+    top: 5rem;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    /* margin-left: 50px; */
+    /* z-index: 10; */
+    border: 2px double white;
+    /* color: #0A2647; */
 }
 
 .about-norman>img {
-    width: 70%;
+    width: 60%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 2vh;
     border-radius: 50%;
+    border: 3px solid #0A2647;
 }
 
 .contact-links {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 40px;
-    margin-left: 30px;
-    padding: 5px;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0.5vh;
 }
 
 .tooltip {
@@ -59,10 +69,11 @@ body {
     visibility: hidden;
     width: auto;
     background-color: #0A2647;
+    /* background-color: #002E63; */
     color: #fff;
     text-align: center;
     border-radius: 5px;
-    padding: 5px;
+    padding: 0.5vw;
     position: absolute;
     z-index: 1;
     top: 100%;
@@ -80,30 +91,34 @@ body {
 
 .flex-container {
     background-color: #0A2647;
-    width: 70%;
-    margin-left: 30px;
-    border-radius: 2%;
+    /* background-color: #002E63; */
+    /* width: 100%; */
+    min-width: 60vw;
+    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
     box-sizing: border-box;
-    position: sticky;
+    /* position: sticky; */
+    /* border: 2px dotted white; */
 }
 
 .flex-container>div {
     background-color: #0A2647;
+    /* background-color: #002E63; */
 
 }
 
 .navbar {
     display: flex;
     justify-content: center;
+
 }
 
 .content {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -113,77 +128,77 @@ body {
 
 h3 {
     text-align: left;
-    margin-left: 30px;
-    margin-bottom: 5px;
-    font-size: 70px;
+    margin-left: 1vw;
+    margin-bottom: 1vh;
+    font-size: 3vw;
 }
 
 .topic-details {
     text-align: left;
-    margin-left: 30px;
+    margin-left: 1vw;
     margin-top: 0px;
 }
 
 .learning-experiences {
     display: flex;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-top: 2vw;
+    margin-left: 1vw;
     text-align: left;
 
 }
 
 .learning-experiences>section {
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #FD841F;
+    width: 11.5vw;
+    margin: 0.5vw;
+    padding: 0.5vw;
+    background-color: #ff7300;
     border-radius: 10px;
 }
 
 .learning-experiences>section>h5 {
     margin: 0;
-    font-size: 15px;
+    font-size: 0.8vw;
 }
 
 .learning-experiences>section>h4 {
     margin: 0;
-    font-size: 45px;
+    font-size: 2.5vw;
 }
 
 .learning-experiences>section>p {
     margin: 0;
-    font-size: 15px;
+    font-size: 0.8vw;
 }
 
 .elearning-experiences {
     display: flex;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-top: 2vw;
+    margin-left: 1vw;
     text-align: left;
 
 }
 
 .elearning-experiences>section {
-    width: 330px;
-    margin: 10px;
-    padding: 10px;
+    width: 18vw;
+    margin: 0.5vw;
+    padding: 0.5vw;
     background-color: #525FE1;
     border-radius: 10px;
 }
 
 .elearning-experiences>section>h5 {
     margin: 0;
-    font-size: 15px;
+    font-size: 0.8vw;
 }
 
 .elearning-experiences>section>h4 {
     margin: 0;
-    font-size: 45px;
+    font-size: 2.5vw;
 }
 
 .elearning-experiences>section>p {
     margin: 0;
-    font-size: 15px;
+    font-size: 0.8vw;
 }
 
 .programming {
@@ -210,19 +225,19 @@ h4 {
     gap: 25px;
 }
 
-.icons{
+.icons {
     display: flex;
     flex-direction: column;
     height: 45px;
     width: 45px;
     margin-top: 10px;
     margin-bottom: 20px;
-    margin:0;
+    margin: 0;
 }
 
 .icon-text {
     margin: 0;
-    padding-top:10px;
+    padding-top: 10px;
     font-size: 10px;
 }
 
@@ -287,7 +302,7 @@ h4 {
     }
 
     .about-norman {
-        width: 50%;
+        width: 70%;
         position: relative;
         top: 0;
         margin-right: 0;
@@ -295,11 +310,11 @@ h4 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 2px solid grey;
+        border: 2px solid whitesmoke;
     }
 
     .about-norman img {
-        width: 50%;
+        width: 60%;
         margin-top: 10px;
     }
 

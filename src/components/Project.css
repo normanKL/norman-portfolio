@@ -2,7 +2,8 @@
     box-sizing: border-box;
     border-radius: 10px;
     margin-bottom: 20px;
-    background-color: #1E3E62;
+    /* background-color: #1E3E62; */
+    background-color: #002E63;
     cursor: pointer;
 }
 
